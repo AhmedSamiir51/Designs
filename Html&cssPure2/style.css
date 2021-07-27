@@ -1,0 +1,395 @@
+body {
+    /* margin: 0;
+    padding: 0; */
+    line-height: 1.1;
+    box-sizing: border-box;
+    transition: all 0.1s ease-out;
+    
+}
+*{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.left-nav{
+    width: 54%;
+}
+.btn {
+    padding: 13px 40px;;
+    text-transform: capitalize;
+    margin-right: 30px;
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    color: #FB8F1D;
+    background-color: white;
+    }
+    .btn:hover {
+        -webkit-box-shadow: 1px 1px 5px 0px rgba(197, 190, 190, 0.75);
+        -moz-box-shadow: 1px 1px 5px 0px rgba(219, 214, 214, 0.75);
+        box-shadow: 1px 1px 5px 0px rgba(180, 179, 179, 0.75);
+      }
+
+.orang{
+    background-color: #FB8F1D;
+    color:whitesmoke ;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link{
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B8BECD;
+}
+.link:hover{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #202336;
+}
+.Travel{
+    padding-top: 30px;
+}
+.Travel-content{
+    width: 52%;
+}
+.Travel-title{
+    font-size: 64px;
+    font-family: "Playfair Display", serif;
+    color: #202336;
+}
+.Travel-subtitle{
+
+  color: #202336;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Inter", "Myriad pro Semibold", sans-serif;
+  margin-top: 100px;
+ 
+}
+.line{
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+.Travel-flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.Travel-border{
+
+    border: 0.8px solid #AFB0B9;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width:32%;
+    height: 52px;
+    font-size: 15px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #4A4C53;
+    text-align: center;
+}
+.Travel-text{
+    padding: 13%;
+}
+.orange{
+
+    margin-top: 31px;
+    padding: 18px 50px;
+    background-color: #fb8f1d;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.Way-img{
+    width: 60%;
+    
+}
+.into{
+    width: 50%;
+}
+
+.Way-title{
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    color: #202336;
+}
+.Way-pragraph{
+    font-family: "Mulish", serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+    margin-top: 50px;
+}
+.Way-contant{
+    width: 40%;
+}
+.new-way{
+    margin-top: 150px;
+}
+.Featured{
+    margin-top: 150px;
+}
+.Featured_felx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+
+}
+.Featured_felx h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    font-family: "Playfair Display", serif;
+    color: #000000;
+    width: 85%;
+}
+.Featured_felx a{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FB8F1D;
+    width: 10%;
+
+}
+img{
+  max-width: 100%;
+}
+.Featured-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+  .Featured-card {
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    width: 25%;
+  }
+  .Featured-card img {
+    border-radius: 13px;
+  }
+
+  
+  .location {
+    display: block;
+    font-size: 17px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #042521;
+  }
+  
+  .country {
+    display: block;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #80918E;
+    font-weight: 400;
+    margin-top: 6px;
+  }
+
+  .card-text{
+    border: 1px solid transparent;
+    border-radius: 0px 10px 0 0;
+    background-color: white;
+    position: absolute;
+    bottom: 3px;
+    text-align: left;
+    left: 36px;
+    padding: 10px;
+  }
+  .guides1{
+    width: 50%;
+  }
+  .Guides{
+      margin-top: 150px;
+  }
+  .testimonials-left{
+      width: 60%;
+      margin-top: 50px;
+  }
+
+  .testimonial-description{
+    font-family: "Mulish", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: 400;
+    margin-top: 50px;
+  }
+  .Testimonials-name{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
+  .Testimonials-position{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  .testimonials-imgst{
+    border-radius: 15px;
+    
+  }
+  .testimonials-img{
+    width: 40%;
+    position: relative;
+    text-align: right;
+  }
+  .testimonials-contener{
+      display: flex;
+      align-items: center;
+  }
+  .Testimonials{
+      margin-top: 150px;
+  }
+  .icon{
+    background-color: white;
+    border-radius: 10px 0 0 0;
+    position: absolute;
+    bottom: 0px;
+    font-size: 38px;
+    right: 0;
+    padding: 13px 24px;
+  }
+  .stories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+
+  }
+  .story{
+      width: 24%;
+      
+      
+  }
+  .story-img{
+      border-radius: 10px 10px 0 0;
+      cursor: pointer;
+      height: 290px;
+      width: 290px;
+      object-fit: cover;
+  }
+  .story-title{
+    font-family: "Inter", sans-serif;
+    margin-top: 12px;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+  }
+  .story-desc{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #7D7987;
+    margin-top: 10px;
+    margin-bottom: 18px;
+  }
+  .read-more{
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 15px;
+    
+    color: #FB8F1D;
+  }
+  .footer  {
+    background-color: #F9F9FB;
+    padding: 80px 0 26px;
+    margin-top: 150px;
+}
+
+  .nav-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-desc {
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    color: #848484;
+    margin: 34px 0 47px;
+  }
+  .copyright{
+    font-family: "Mulish", sans-serif;
+    color: #848484;
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .footer-text2{
+    font-family: "Mulish", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #000000;
+  }
+  .footer-content{
+      display: flex;
+  }
+  .footer-flex{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+  }
+ .nav-footer-item{
+     margin-top: 16px;
+ }
+ .nav-footer-link{
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #848484;
+ }
+ .nav-footer-link:hover{
+    color: #fb8f1d;
+ }
+ .line2{
+     margin-top: 50px;
+ }
+ .center{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 26px;
+ }
+ .fab {
+    font-family: "Font Awesome 5 Brands";
+    color: black;
+    margin-left: 30px;
+}
+.into{
+  text-align: right;
+}
