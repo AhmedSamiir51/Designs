@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background: #D1D1D1}
+#main {
+	height: auto;
+	width: 100%;
+}
+nav{
+	width:100%;
+	height: 70px;
+	background: #4F4C45;
+	position: sticky;
+	z-index: 99;
+	top:0px;
+	box-shadow: 0px 2px 3px #FFB843;
+}
+#logo{
+	width:260px;
+	height: 50px;
+	padding: 10px;
+	position: absolute;
+	left:10px;
+}
+
+nav ul{
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	right:10px;
+}
+nav ul li{
+	width:100px;
+	height: 70px;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	border-right:1px solid #fff;
+}
+nav ul li a{
+	color:#fff;
+	text-decoration: none;
+	line-height: 70px;
+}
+nav ul li:hover{
+	background: #FFB843;
+}
+#slider{
+	position: relative;
+	display: block;
+	width: 100%;
+	z-index: 1;
+}
+
+/* mySidenav */
+
+#mySidenav{
+    position: fixed;
+	top:100px;
+    left: 0px;
+	z-index: 98;
+	height: 250px;
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0;
+}
+#mySidenav a {
+    position: absolute; 
+    left: -95px; 
+    transition: 0.3s; 
+    padding: 15px;
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+}
+
+#mySidenav a:hover {
+    left: 0; 
+}
+
+/* The about link: 20px from the top with a green background */
+#mail {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#fb {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+}
+
+#yt {
+    top: 140px;
+    background-color: #f44336; /* Red */
+}
+
+#tw {
+    top: 200px;
+    background-color: #00FFFB 
+}
+
+section{
+	width:100%;
+	border:2px solid #fff;
+	box-sizing: border-box;
+	height: auto;
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+
+#block1{
+	width:30%;
+	min-height: 300px;
+	height:auto;
+	display: inline-block;
+	margin: 20px;
+	background: #FFF6E1;
+
+}
+#block1title{
+	display: block;
+	background: #f00;
+	color:#fff;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size:30px;
+	font-weight: bold;
+}
+#block1text{
+	padding: 20px;
+}
+#block2{
+	width:30%;
+	min-height: 300px;
+	height:auto;
+	display: inline-block;
+	margin: 20px;
+	background: #FFF6E1;
+
+}
+#block2title{
+	display: block;
+	background: #990;
+	color:#fff;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size:30px;
+	font-weight: bold;
+}
+#block3{
+	width:30%;
+		min-height: 300px;
+	height:auto;
+	display: inline-block;
+	margin: 20px;
+	background: #FFF6E1;
+
+}
+#block2text{
+	padding: 20px;
+}
+#block3title{
+	display: block;
+	background: #009;
+	color:#fff;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size:30px;
+	font-weight: bold;
+}
+#block3text{
+	padding: 20px;
+}
+footer{
+	width:100%;
+	height: 300px;
+	background: #555555;
+	color: #fff;
+}
+
+#footer-top{
+	width:100%;
+	height:250px;
+}
+#footer-bottom{
+	width:100%;
+	height:50px;
+	background:#777;
+	line-height:50px;
+	text-align:center;
+}
+#left{
+	float:left;
+		width:30%
+
+}
+
+#right{
+	padding:20px;
+	float:left;
+	width:60%
+	
+}
+
+
+
+
+
+
+
+
+
+
